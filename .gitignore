@@ -1,0 +1,5 @@
+/.vscode/
+/testing/binaries/
+/testing/catch2/catch_main.o
+/testing/catch2/catch.hpp
+/testing/tests/
