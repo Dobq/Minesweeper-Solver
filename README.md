@@ -9,9 +9,11 @@ Minesweeper Solver is a program that solves popular [Minesweeper](https://en.wik
 
 C++20 compiler is required, I used GCC 14.2.0.
 
-In order to compile tests and `main.exe` file, check and run batch files in `testing` folder, of course they work only on Windows, on Linux similar bash files should do the job.
+CMake may be used to compile tests and `main.exe` as `CMakeLists.txt` file is provided.
 
-Compiling tests requires Catch2 single-header library [file](https://github.com/catchorg/Catch2/releases/download/v2.13.10/catch.hpp) and it is the only dependency of this repository, detailed info is included in aforementioned batch files.
+In order to compile tests and `main.exe` file without use of CMake, check and run batch files in `testing` folder, of course they work only on Windows, on Linux similar bash files should do the job.
+
+Either way, compiling tests requires Catch2 single-header library [file](https://github.com/catchorg/Catch2/releases/download/v2.13.10/catch.hpp) and it is the only dependency of this repository, detailed info is included in aforementioned batch files.
 
 ## Running
 
@@ -24,6 +26,8 @@ After running batch scripts `main.exe` binary appears in `testing\binaries` fold
 Colorful step-by-step solution should be printed in the terminal.
 
 There are eight exemplary input files in this folder.
+
+If CMake was used, `main.exe` is present in `build` folder of course.
 
 ## Some technical details
 
